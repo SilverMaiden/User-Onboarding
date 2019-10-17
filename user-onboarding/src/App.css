@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  font-weight: light;
+  background-color: #e8e8e8;
+  color: #00334e;
+  font-family: "Avenir";
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+.container {
+    padding: 10%;
+}
+
+.form-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.input[type=text], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #5588a3;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0.5px 1px 3px black;
+}
+
+.input[type=password], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #5588a3;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0.5px 1px 3px grey;
+}
+
+
+ul {
+    list-style-type:none;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: white;
+    border: 0.0005px black solid;
+}
+
+li {
+    text-decoration: none;
+    margin-bottom: 5%;
+}
+
+.card-container {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.card {
+    border: 0.0005px #00334e solid;
+    color: #00334e;
+    width: 25%;
+    padding: 4%;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+nav {
+    height: 50px;
+    background-color: #145374;
+
+    color: white;
+    text-align: left;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.nav-text {
+    padding-top: 1%;
+    padding-left:1%;
+    font-weight: bold;
+}
+
+
+button {
+    width: 15%;
+    padding-top: 1%;
+    padding-bottom:1%;
+    color: white;
+    background-color: #145374;
+    border-radius: 4px;
+}
